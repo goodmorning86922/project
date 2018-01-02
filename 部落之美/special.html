@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>部落之美-久美部落</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script>
+
+$(document).ready(function(){
+  $("#button1").click(function(){
+    $("#test2").hide();
+    $("#test3").hide();
+    $("#test1").show();
+    $("#bunun1").hide();
+    $("#bunun2").hide();
+    $("#bunun3").hide();
+    $("#bunun4").hide();
+    $("#tsou1").show();
+    $("#tsou2").show();
+    $("#tsou3").show();
+    $("#tsou4").show();	
+    $("#abc1").hide();	
+    $("#abc2").hide();
+    $("#abc3").hide();
+    $("#abc4").hide();	
+  });
+});
+
+$(document).ready(function(){
+  $("#button2").click(function(){
+    $("#test1").hide();
+    $("#test3").hide();
+    $("#test2").show();
+    $("#bunun1").show();
+    $("#bunun2").show();
+    $("#bunun3").show();
+    $("#bunun4").show();
+    $("#tsou1").hide();
+    $("#tsou2").hide();
+    $("#tsou3").hide();
+    $("#tsou4").hide();
+    $("#abc1").hide();	
+    $("#abc2").hide();
+    $("#abc3").hide();
+    $("#abc4").hide();	
+  });
+});
+
+$(document).ready(function(){
+  $("#button3").click(function(){
+    $("#test1").hide();
+    $("#test2").hide();
+    $("#test3").show();
+    $("#bunun1").hide();
+    $("#bunun2").hide();
+    $("#bunun3").hide();
+    $("#bunun4").hide();
+    $("#tsou1").hide();
+    $("#tsou2").hide();
+    $("#tsou3").hide();
+    $("#tsou4").hide();
+    $("#abc1").show();	
+    $("#abc2").show();
+    $("#abc3").show();
+    $("#abc4").show();	
+  });
+});
+</script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="首頁.html">部落之美</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="首頁.html">首頁
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="introduction.html">部落介紹</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="festival.html">文化祭典</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="special.html">特色物品</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="久美國小.html">景點資訊</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="building.html">建築風格</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+     <input type="button" value="鄒族" onclick="location.href='festival.html'">
+
+     <input type="button" value="布農族" onclick="location.href='festivala.html'">
+      	<h1>特色物品</h1>
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+<div class="col-md-8">
+<script type="text/javascript">
+        var jsImg = new Array("special_img/a.jpg","special_img/b.jpg","special_img/c.jpg","special_img/d.jpg","special_img/e.jpg","special_img/f.jpg","special_img/h.jpg","special_img/g.jpg");     
+        setInterval("randomImg()",2000);
+        function randomImg(){      
+        var imgIndex = Math.floor(Math.random()*jsImg.length);
+        document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[imgIndex]+"' width=450 height=450>";
+        }       
+</script>
+<script type="text/javascript">
+        var jsImg = new Array("special_img/a.jpg","special_img/b.jpg","special_img/c.jpg","special_img/d.jpg","special_img/e.jpg","special_img/f.jpg","special_img/h.jpg","special_img/g.jpg");
+        var jsImg_len = jsImg.length;    
+        var i=0;                          
+        setInterval("sequentialImg()",2000);
+        function sequentialImg(){  
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";        
+                i++;
+                if(i>=jsImg_len)  i=0;
+        }
+</script>
+<body onload="sequentialImg();">
+<div id="my_div" ></div> 
+</div>
+
+
+        <div class="col-md-4">
+          <h3 class="my-3">文化特質</h3>
+<button id = "button1">工藝品</button>
+<button id = "button2">服飾</button>
+<button id = "button3">食物</button>
+<p id="test1" >鄒族人沒有充裕的資源，而其大部分時間都投注於基本生活需求的勞動上。連頭目與巫師都必須勞
+	       動以謀全家生活的安頓。鄒族所有的物品大致都是為生活中實際需求才會加以創製。（一）皮革－
+	       精細的鞣皮技術，以獵物的皮為衣飾是鄒族的特色。鄒人以柔軟的山羌皮毛做帽飾、皮鞋，以山羊皮
+               作衣服。先刮除皮上的肉，曬乾、再放在臼裡，以杵打軟，或放在粗大圓木上由兩人拉扯，如此重
+               覆多次，直到獸皮柔軟為止。（二）陶藝－失傳的製陶技術，鄒族的陶器有類似缽狀用來炊飯的鍋，
+	       以及用於烹煮菜肉及盛裝小米酒供祭的陶壺。製作陶器的工具包括了木模、兩塊大小不一的圓石和石
+               盤，沒有拍板。陶鍋的製法採取模製法，是將泥團置於木模上製成坏。陶壺是從搓揉好的泥團，從中
+               掏出泥土使其成為一個中空體，然後再以手捏、圓石輔器沿著中空體的內外壁，進行壓磨，逐漸將其
+               擴大成為壺身的器形，鍋和壺的粗坏都是利用圓石和水磨勻，使其光滑。而根據日本學者鳥居龍藏在
+               西元1907年進行鄒族田野調查時，只有兩人會製作陶器，目前已無人知曉製陶的技術。（三）編織
+	       鄒族編織工藝有竹背簍、竹籃等各種生活用具、利用山棕葉編製為雨具與遮雨棚等。網袋，是用麻
+               繩自行縫製的網袋，男子外出工作或狩獵時，都需要攜帶以備裝物，可謂鄒族的男子行路時所用的輕裝備。
+<p id="test2" style="display:none;">鄒族主要居住於高山地區，鄒族服裝因社群分佈地域而略有差異，大抵以通稱的南
+				    鄒及北鄒有較為明顯的不同。以婦女的服裝為例，阿里山地區婦女上身多半穿著以
+                                    棉布製成的對襟長袖短上衣，不會綁帶或釦子扣上，所以衣服是敞開的，內再穿上
+                                    胸兜；而卡那卡那富及沙阿魯阿鄒族的婦女，上衣是右襟長袖短上衣，利用綁帶繫
+                                    在背後或在腰間纏繞。族人的服飾會因地域性產生不同的變化，而在聚落中依著不
+                                    同場合穿戴不同的服飾。（一）男子服飾，除了男子的獸皮衣飾以外，以紅色布料
+			            為主的衣服配上帶著羽飾的帽子，是鄒族男子的較為人熟知的打扮。（二）女子服
+                                    飾，包括胸兜、刺繡頭巾、藍衣黑裙是普遍一般認知的印象。女性服裝基本配備有
+                                    纏頭的黑布、長袖短上衣、胸兜、額帶、腰帶、長裙，穿護腳布。（三）配飾(1)皮帽
+				    皮帽是利用兩片水瓢形軟鹿皮縫製而成，有保護腦部的作用，平日不會戴上，通常捲起
+                                    扣在皮帶上，在鄒族男子接受成年禮之後才能配戴。(2)臂飾臂飾在鄒族社會中具有特殊
+				    意義，據說唯有曾與山豬搏鬥而獵獲者才可配戴並擁有榮譽。其製作方法是將山豬的一
+                                    對獠牙，從牙根處以銅絲、布片捲纏接合，尖端相對成環形，再加以編成的辮狀頭髮為配飾。
+				    (3)耳飾鄒人不分男女至2、3歲就以樹刺或針穿耳洞，並穿以皮繩或竹片固定耳洞大小，待傷口癒合後再戴上裝飾用的耳飾。
+<p id="test3" style="display:none;">鄒族的三大族群－卡那卡那富人/簡仔霧群（kanakanavu）、沙阿魯阿人/四社群（hla'alua）及鄒族/阿里山群（tsou），其中以鄒族/阿里山群（tsou）的人數最多。本章節將鄒族/阿里山群（tsou）近代常食用之食物作一分類（黃韶顏，2000）：
+主食類：米飯、芋頭、小米、香蕉、木薯、薏仁、南瓜等。
+點心類：小米、南瓜、木薯等。
+水果類：野生番石榴、百香果、柿子、梅子、李子等。
+蔬菜類：龍葵、山芹、山葵、山蘇、山胡椒、薑、川七、過貓、樹豆、花生、芝麻等。
+其他類：蜜蜂、蟋蟀等。
+釀酒用食材有：小米等。
+涼性食材：蘿蔔、仙草、愛玉等。
+熱性食材：魚的內臟。
+山胡椒-圖中黑色顆粒為山胡椒，因為味道帶些許辛辣，所以有些族別會拿此來當作辛香料調味用，亦也可當做菜類直接咀嚼食用。
+山蘇-為鄒族人常食用之野菜之ㄧ，不需特意栽種，直接至野外採集即可。
+釀酒-鄒族人喜性使用小米為釀製酒的主要原料，圖為發酵中的小米酒。
+
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">相關照片</h3>
+
+      <div class="row">
+
+       <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou1" src="special_img/aa.jpg" height="350" width="400">
+	<img class="img-fluid" id = "bunun1"  style="display:none;"  src="special_img/aaa.jpg" height="350" width="400">
+        <img class="img-fluid" id = "abc1"  style="display:none;"  src="special_img/aaaa.jpg" height="350" width="400">
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou2"src="special_img/bb.jpg"  height="350" width="400">
+	<img class="img-fluid" id = "bunun2"  style="display:none;"  src="special_img/bbb.jpg" height="350" width="400">
+	<img class="img-fluid" id = "abc2"  style="display:none;"  src="special_img/bbbb.jpg" height="350" width="400">
+ 	</div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou3"src="special_img/cc.jpg"  height="350" width="400">
+	<img class="img-fluid" id = "bunun3"  style="display:none;"  src="special_img/ccc.jpg" height="350" width="400">
+	<img class="img-fluid" id = "abc3"  style="display:none;"  src="special_img/cccc.jpg" height="350" width="400">
+	  </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <img class="img-fluid" id = "tsou4" src="special_img/dd.jpg"  height="350" width="400">
+	 <img class="img-fluid" id = "bunun4"  style="display:none;"  src="special_img/ddd.jpg" height="350" width="400">
+         <img class="img-fluid" id = "abc4"  style="display:none;"  src="special_img/dddd.jpg" height="350" width="400">	
+	  </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">THANK FOR YOUR WATCHING~~!</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
