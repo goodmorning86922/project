@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>部落之美-久美部落</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script>
+
+$(document).ready(function(){
+  $("#button1").click(function(){
+    $("#test2").hide();
+    $("#test3").hide();
+    $("#test1").show();
+    $("#bunun1").hide();
+    $("#bunun2").hide();
+    $("#bunun3").hide();
+    $("#bunun4").hide();
+    $("#tsou1").show();
+    $("#tsou2").show();
+    $("#tsou3").show();
+    $("#tsou4").show();	
+    $("#abc1").hide();	
+    $("#abc2").hide();
+    $("#abc3").hide();
+    $("#abc4").hide();	
+  });
+});
+
+$(document).ready(function(){
+  $("#button2").click(function(){
+    $("#test1").hide();
+    $("#test3").hide();
+    $("#test2").show();
+    $("#bunun1").show();
+    $("#bunun2").show();
+    $("#bunun3").show();
+    $("#bunun4").show();
+    $("#tsou1").hide();
+    $("#tsou2").hide();
+    $("#tsou3").hide();
+    $("#tsou4").hide();
+    $("#abc1").hide();	
+    $("#abc2").hide();
+    $("#abc3").hide();
+    $("#abc4").hide();	
+  });
+});
+
+$(document).ready(function(){
+  $("#button3").click(function(){
+    $("#test1").hide();
+    $("#test2").hide();
+    $("#test3").show();
+    $("#bunun1").hide();
+    $("#bunun2").hide();
+    $("#bunun3").hide();
+    $("#bunun4").hide();
+    $("#tsou1").hide();
+    $("#tsou2").hide();
+    $("#tsou3").hide();
+    $("#tsou4").hide();
+    $("#abc1").show();	
+    $("#abc2").show();
+    $("#abc3").show();
+    $("#abc4").show();	
+  });
+});
+</script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">部落之美</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首頁
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="introduction.html">部落介紹</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="festival.html">文化祭典</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="special.html">特色物品</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="attractions.html">景點資訊</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="building.html">建築風格</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+     <input type="button" value="鄒族" onclick="location.href='special.html'">
+
+     <input type="button" value="布農族" onclick="location.href='speciala.html'">
+      	<h1>特色物品</h1>
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+<div class="col-md-8">
+<script type="text/javascript">
+        var jsImg = new Array("speciala_img/a.jpg","speciala_img/b.jpg","speciala_img/c.jpg","speciala_img/d.jpg","speciala_img/e.jpg","speciala_img/f.jpg","speciala_img/h.jpg","speciala_img/g.jpg");     
+        setInterval("randomImg()",2000);
+        function randomImg(){      
+        var imgIndex = Math.floor(Math.random()*jsImg.length);
+        document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[imgIndex]+"' width=450 height=450>";
+        }       
+</script>
+<script type="text/javascript">
+        var jsImg = new Array("speciala_img/a.jpg","speciala_img/b.jpg","speciala_img/c.jpg","speciala_img/d.jpg","speciala_img/e.jpg","speciala_img/f.jpg","speciala_img/h.jpg","speciala_img/g.jpg");
+        var jsImg_len = jsImg.length;    
+        var i=0;                          
+        setInterval("sequentialImg()",2000);
+        function sequentialImg(){  
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";        
+                i++;
+                if(i>=jsImg_len)  i=0;
+        }
+</script>
+<body onload="sequentialImg();">
+<div id="my_div" ></div> 
+</div>
+
+
+        <div class="col-md-4">
+          <h3 class="my-3">文化特質</h3>
+<button id = "button1">工藝品</button>
+<button id = "button2">服飾</button>
+<button id = "button3">食物</button>
+<p id="test1" >布農族是典型的高山原住民，活躍於山林之間，也是天生的獵人，
+	       長年縱橫於中央山脈，是雄據臺灣中南部且遷徙分佈最廣的族群。 
+               他們物質生活上的表現，地域性特色較為顯著，材料選用、製作技術、器物
+		形制、服飾形制等等。工藝表現手法較樸實並重於實用，也起因於其遷移
+ 		頻繁，使編器充滿方便搬運與精簡樸實的特質。除此之外，狩獵所獲的毛皮
+		應用於衣著文化而產生鞣皮工藝，並利用獸骨製作工藝用具如紡錘車、分線刀
+		、鉤線棒及裝飾用的髮簪、豬牙裝飾…。木工：刳木工，其製成器具有木臼、
+		木桶、蒸桶、飼盆等；砍削木工，其製成器具有木杵、木柄、木鉤、木枕、木櫈等
+		。竹工：用竹管製者有竹桶、竹杯、煙斗等；用竹篦編成有竹棚、竹篦、竹扉等；細竹則製成
+		竹笛、竹箭桿、煙管等。瓢工：以瓢殼製成若干不同的器皿，如瓢壺、瓢杯、水瓢等。
+		藤竹編籃：以竹竿藤條為骨架、以竹篾藤皮為編條，其編成器具有背簍、穀簍、飯盒、圓箕、簍筐、
+		飯篷等。其編紋漏孔者以六角紋為主，密編者以人字紋與十字紋為主。
+	布農族傳統工藝以編織及各種竹木、石器工藝品為主。工藝原料及材料的來源大多取自大自然，包括使用植物的幹部來製
+	作器皿、建築，植物纖維、表皮用以編織，如藤、竹，根部、葉部用於染料、製作蓆子，果實用來製作瓢工工藝，莖部可做項飾等等。
+<p id="test2" style="display:none;">布農族人在服飾上或因用途不同，產生不同的顏色搭配，通常因
+		應他們狩獵生活的環境，利用色系偏暗色或深色，因太過亮眼的色彩在森林中，較容易被
+		動物發覺，因此選擇暗沉的顏色易於隱藏身分，與臺灣其他族群相比較，屬於暗沉的色調。
+		但當布農族男性成為族裡的打獵英雄之後，可以被允許穿上鮮豔的紅色。而女性的服裝顏色常
+		見深暗色調的藍、黑色，而服裝上的織紋較多用黃、紅、黑、紫四色交互搭配而成條紋。另外
+		主要在祭儀上穿著的傳統衣飾普遍是以白色為底，並且圖紋以直條人字紋為主，紋飾產生喜
+		用紅、黃、紫或紅、黃、白搭配出來。材質來源傳統的布農族服飾大都來自大自然，採自苧麻
+		天然植物之材料，皮衣、皮革製品取自長鬃山羊、水鹿、山羌等獵獲物。服飾製作，一般織布工作
+		是透過男女共同分工合作完成，傳統上，男子負責製作織布機，採麻、剝麻等製作麻線的工作由男
+		女共同參與進行，惟獨女子在織布過程，是嚴禁男子去碰觸織布機。男子服飾，在男子服飾中最具
+		代表性的就是男子無袖對襟長上衣，即長背心（或稱外敞衣），此類服飾屬於臺灣原住民傳統的方衣
+		系統。將兩塊長方形的織布，於長邊對摺縫合而成。女子服飾布農族女性的衣著，受到漢人衣飾形成
+		的影響甚大，以長袖直筒連裙為主，配上中式的領、胸襟。領片、領圍部分常以平針、毛毯邊縫、十字繡等紋路裝飾。
+下裝部分，常穿著六分長褲及裙裝，褲子通常都是黑色的，裙子可分為雙片的圍裡裙和直筒裙兩種樣式。
+<p id="test3" style="display:none;">布農族的傳統主食為小米、玉米、蕃薯、芋頭等，深 
+山的部落則以蕃薯與芋頭為主食。小米通常煮成飯，玉米 
+則磨成粉狀，製成餅或粽食用。布農族平常只吃澱粉類食 
+物或豆類、野菜，只有慶典時才會食用肉類。 
+小米是布農族人賴以維生的主食，歲時祭儀亦以栽培 
+小米的活動為中心。一年以開墾早田、播種小米為開始， 
+以收割小米後的一連串慶祝儀式為結束。 
+布農族人種植稗，多磨成粉，粉成紫色與小米混合後 
+煮吃，這是布農族人喜歡的一種米食吃法。稗也可磨成粉 
+做糕吃。 
+
+甘藷、玉米和芋頭也是布農族人重要的食物之一，布 
+農族人煮南瓜也當主食吃，他們還把南瓜的種子收集起來 
+曬乾後，烤來剝皮殼吃裡面的仁。南瓜可以儲存數年不壞 
+，且越陳吃起來越香。 
+樹豆是布農族人最重要的副食，布農族人一年到頭都 
+煮樹豆當湯佐食。這種山產「樹豆」，是一年生草木植物 
+，春生夏長開黃花，結莢，一排豆子，黃色，如苗豆大粒 
+子，煮豬肉排骨皆可。 
+
+長在樹上的鹽巴「山鹽青」，是在深秋時節成熟的「 
+鹹」果子。鹽是人類維持生埋機能最不可或缺的礦物資源 
+。對在中央山脈求生的布農族人，有一種稱為qalus的山鹽 
+青的落葉小喬木，它的種子含有鹽分。在古代，鹽巴尚未 
+輸入布農族社會的時候，它就是「解癮」的恩物。自從與 
+漢人接觸以後，鹽巴成了最重要的交易品。 
+
+
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">相關照片</h3>
+
+      <div class="row">
+
+       <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou1" src="speciala_img/aa.jpg" height="350" width="400">
+	<img class="img-fluid" id = "bunun1"  style="display:none;"  src="speciala_img/aaa.jpg" height="350" width="400">
+        <img class="img-fluid" id = "abc1"  style="display:none;"  src="speciala_img/aaaa.jpg" height="350" width="400">
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou2"src="speciala_img/bb.jpg"  height="350" width="400">
+	<img class="img-fluid" id = "bunun2"  style="display:none;"  src="speciala_img/bbb.jpg" height="350" width="400">
+	<img class="img-fluid" id = "abc2"  style="display:none;"  src="speciala_img/bbbb.jpg" height="350" width="400">
+ 	</div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+        <img class="img-fluid" id = "tsou3"src="speciala_img/cc.jpg"  height="350" width="400">
+	<img class="img-fluid" id = "bunun3"  style="display:none;"  src="speciala_img/ccc.jpg" height="350" width="400">
+	<img class="img-fluid" id = "abc3"  style="display:none;"  src="speciala_img/cccc.jpg" height="350" width="400">
+	  </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <img class="img-fluid" id = "tsou4" src="speciala_img/dd.jpg"  height="350" width="400">
+	 <img class="img-fluid" id = "bunun4"  style="display:none;"  src="speciala_img/ddd.jpg" height="350" width="400">
+         <img class="img-fluid" id = "abc4"  style="display:none;"  src="speciala_img/dddd.jpg" height="350" width="400">	
+	  </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">THANK FOR YOUR WATCHING~~!</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
