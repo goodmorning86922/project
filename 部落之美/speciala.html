@@ -32,11 +32,11 @@ $(document).ready(function(){
     $("#tsou1").show();
     $("#tsou2").show();
     $("#tsou3").show();
-    $("#tsou4").show();	
-    $("#abc1").hide();	
+    $("#tsou4").show();
+    $("#abc1").hide();
     $("#abc2").hide();
     $("#abc3").hide();
-    $("#abc4").hide();	
+    $("#abc4").hide();
   });
 });
 
@@ -53,10 +53,10 @@ $(document).ready(function(){
     $("#tsou2").hide();
     $("#tsou3").hide();
     $("#tsou4").hide();
-    $("#abc1").hide();	
+    $("#abc1").hide();
     $("#abc2").hide();
     $("#abc3").hide();
-    $("#abc4").hide();	
+    $("#abc4").hide();
   });
 });
 
@@ -73,10 +73,10 @@ $(document).ready(function(){
     $("#tsou2").hide();
     $("#tsou3").hide();
     $("#tsou4").hide();
-    $("#abc1").show();	
+    $("#abc1").show();
     $("#abc2").show();
     $("#abc3").show();
-    $("#abc4").show();	
+    $("#abc4").show();
   });
 });
 </script>
@@ -101,12 +101,12 @@ $(document).ready(function(){
             <li class="nav-item">
               <a class="nav-link" href="introduction.html">部落介紹</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="festival.html">文化祭典</a>
-              <span class="sr-only">(current)</span>
-            </li>
             <li class="nav-item">
+              <a class="nav-link" href="festival.html">文化祭典</a>
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="special.html">特色物品</a>
+              <span class="sr-only">(current)</span>
             </li>
              <li class="nav-item">
               <a class="nav-link" href="attractions.html">景點資訊</a>
@@ -132,26 +132,26 @@ $(document).ready(function(){
 
 <div class="col-md-8">
 <script type="text/javascript">
-        var jsImg = new Array("speciala_img/a.jpg","speciala_img/b.jpg","speciala_img/c.jpg","speciala_img/d.jpg","speciala_img/e.jpg","speciala_img/f.jpg","speciala_img/h.jpg","speciala_img/g.jpg");     
+        var jsImg = new Array("speciala_img/a.jpg","speciala_img/b.jpg","speciala_img/c.jpg","speciala_img/d.jpg","speciala_img/e.jpg","speciala_img/f.jpg","speciala_img/h.jpg","speciala_img/g.jpg");
         setInterval("randomImg()",2000);
-        function randomImg(){      
+        function randomImg(){
         var imgIndex = Math.floor(Math.random()*jsImg.length);
         document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[imgIndex]+"' width=450 height=450>";
-        }       
+        }
 </script>
 <script type="text/javascript">
         var jsImg = new Array("speciala_img/a.jpg","speciala_img/b.jpg","speciala_img/c.jpg","speciala_img/d.jpg","speciala_img/e.jpg","speciala_img/f.jpg","speciala_img/h.jpg","speciala_img/g.jpg");
-        var jsImg_len = jsImg.length;    
-        var i=0;                          
+        var jsImg_len = jsImg.length;
+        var i=0;
         setInterval("sequentialImg()",2000);
-        function sequentialImg(){  
-            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";        
+        function sequentialImg(){
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";
                 i++;
                 if(i>=jsImg_len)  i=0;
         }
 </script>
 <body onload="sequentialImg();">
-<div id="my_div" ></div> 
+<div id="my_div" ></div>
 </div>
 
 
@@ -161,7 +161,7 @@ $(document).ready(function(){
 <button id = "button2">服飾</button>
 <button id = "button3">食物</button>
 <p id="test1" >布農族是典型的高山原住民，活躍於山林之間，也是天生的獵人，
-	       長年縱橫於中央山脈，是雄據臺灣中南部且遷徙分佈最廣的族群。 
+	       長年縱橫於中央山脈，是雄據臺灣中南部且遷徙分佈最廣的族群。
                他們物質生活上的表現，地域性特色較為顯著，材料選用、製作技術、器物
 		形制、服飾形制等等。工藝表現手法較樸實並重於實用，也起因於其遷移
  		頻繁，使編器充滿方便搬運與精簡樸實的特質。除此之外，狩獵所獲的毛皮
@@ -188,32 +188,32 @@ $(document).ready(function(){
 		系統。將兩塊長方形的織布，於長邊對摺縫合而成。女子服飾布農族女性的衣著，受到漢人衣飾形成
 		的影響甚大，以長袖直筒連裙為主，配上中式的領、胸襟。領片、領圍部分常以平針、毛毯邊縫、十字繡等紋路裝飾。
 下裝部分，常穿著六分長褲及裙裝，褲子通常都是黑色的，裙子可分為雙片的圍裡裙和直筒裙兩種樣式。
-<p id="test3" style="display:none;">布農族的傳統主食為小米、玉米、蕃薯、芋頭等，深 
-山的部落則以蕃薯與芋頭為主食。小米通常煮成飯，玉米 
-則磨成粉狀，製成餅或粽食用。布農族平常只吃澱粉類食 
-物或豆類、野菜，只有慶典時才會食用肉類。 
-小米是布農族人賴以維生的主食，歲時祭儀亦以栽培 
-小米的活動為中心。一年以開墾早田、播種小米為開始， 
-以收割小米後的一連串慶祝儀式為結束。 
-布農族人種植稗，多磨成粉，粉成紫色與小米混合後 
-煮吃，這是布農族人喜歡的一種米食吃法。稗也可磨成粉 
-做糕吃。 
+<p id="test3" style="display:none;">布農族的傳統主食為小米、玉米、蕃薯、芋頭等，深
+山的部落則以蕃薯與芋頭為主食。小米通常煮成飯，玉米
+則磨成粉狀，製成餅或粽食用。布農族平常只吃澱粉類食
+物或豆類、野菜，只有慶典時才會食用肉類。
+小米是布農族人賴以維生的主食，歲時祭儀亦以栽培
+小米的活動為中心。一年以開墾早田、播種小米為開始，
+以收割小米後的一連串慶祝儀式為結束。
+布農族人種植稗，多磨成粉，粉成紫色與小米混合後
+煮吃，這是布農族人喜歡的一種米食吃法。稗也可磨成粉
+做糕吃。
 
-甘藷、玉米和芋頭也是布農族人重要的食物之一，布 
-農族人煮南瓜也當主食吃，他們還把南瓜的種子收集起來 
-曬乾後，烤來剝皮殼吃裡面的仁。南瓜可以儲存數年不壞 
-，且越陳吃起來越香。 
-樹豆是布農族人最重要的副食，布農族人一年到頭都 
-煮樹豆當湯佐食。這種山產「樹豆」，是一年生草木植物 
-，春生夏長開黃花，結莢，一排豆子，黃色，如苗豆大粒 
-子，煮豬肉排骨皆可。 
+甘藷、玉米和芋頭也是布農族人重要的食物之一，布
+農族人煮南瓜也當主食吃，他們還把南瓜的種子收集起來
+曬乾後，烤來剝皮殼吃裡面的仁。南瓜可以儲存數年不壞
+，且越陳吃起來越香。
+樹豆是布農族人最重要的副食，布農族人一年到頭都
+煮樹豆當湯佐食。這種山產「樹豆」，是一年生草木植物
+，春生夏長開黃花，結莢，一排豆子，黃色，如苗豆大粒
+子，煮豬肉排骨皆可。
 
-長在樹上的鹽巴「山鹽青」，是在深秋時節成熟的「 
-鹹」果子。鹽是人類維持生埋機能最不可或缺的礦物資源 
-。對在中央山脈求生的布農族人，有一種稱為qalus的山鹽 
-青的落葉小喬木，它的種子含有鹽分。在古代，鹽巴尚未 
-輸入布農族社會的時候，它就是「解癮」的恩物。自從與 
-漢人接觸以後，鹽巴成了最重要的交易品。 
+長在樹上的鹽巴「山鹽青」，是在深秋時節成熟的「
+鹹」果子。鹽是人類維持生埋機能最不可或缺的礦物資源
+。對在中央山脈求生的布農族人，有一種稱為qalus的山鹽
+青的落葉小喬木，它的種子含有鹽分。在古代，鹽巴尚未
+輸入布農族社會的時候，它就是「解癮」的恩物。自從與
+漢人接觸以後，鹽巴成了最重要的交易品。
 
 
 
@@ -248,7 +248,7 @@ $(document).ready(function(){
         <div class="col-md-3 col-sm-6 mb-4">
          <img class="img-fluid" id = "tsou4" src="speciala_img/dd.jpg"  height="350" width="400">
 	 <img class="img-fluid" id = "bunun4"  style="display:none;"  src="speciala_img/ddd.jpg" height="350" width="400">
-         <img class="img-fluid" id = "abc4"  style="display:none;"  src="speciala_img/dddd.jpg" height="350" width="400">	
+         <img class="img-fluid" id = "abc4"  style="display:none;"  src="speciala_img/dddd.jpg" height="350" width="400">
 	  </div>
 
       </div>

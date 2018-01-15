@@ -32,11 +32,11 @@ $(document).ready(function(){
     $("#tsou1").show();
     $("#tsou2").show();
     $("#tsou3").show();
-    $("#tsou4").show();	
-    $("#abc1").hide();	
+    $("#tsou4").show();
+    $("#abc1").hide();
     $("#abc2").hide();
     $("#abc3").hide();
-    $("#abc4").hide();	
+    $("#abc4").hide();
   });
 });
 
@@ -53,10 +53,10 @@ $(document).ready(function(){
     $("#tsou2").hide();
     $("#tsou3").hide();
     $("#tsou4").hide();
-    $("#abc1").hide();	
+    $("#abc1").hide();
     $("#abc2").hide();
     $("#abc3").hide();
-    $("#abc4").hide();	
+    $("#abc4").hide();
   });
 });
 
@@ -73,10 +73,10 @@ $(document).ready(function(){
     $("#tsou2").hide();
     $("#tsou3").hide();
     $("#tsou4").hide();
-    $("#abc1").show();	
+    $("#abc1").show();
     $("#abc2").show();
     $("#abc3").show();
-    $("#abc4").show();	
+    $("#abc4").show();
   });
 });
 </script>
@@ -101,12 +101,12 @@ $(document).ready(function(){
             <li class="nav-item">
               <a class="nav-link" href="introduction.html">部落介紹</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="festival.html">文化祭典</a>
-              <span class="sr-only">(current)</span>
-            </li>
             <li class="nav-item">
+              <a class="nav-link" href="festival.html">文化祭典</a>
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="special.html">特色物品</a>
+              <span class="sr-only">(current)</span>
             </li>
              <li class="nav-item">
               <a class="nav-link" href="attractions.html">景點資訊</a>
@@ -132,26 +132,26 @@ $(document).ready(function(){
 
 <div class="col-md-8">
 <script type="text/javascript">
-        var jsImg = new Array("special_img/a.jpg","special_img/b.jpg","special_img/c.jpg","special_img/d.jpg","special_img/e.jpg","special_img/f.jpg","special_img/h.jpg","special_img/g.jpg");     
+        var jsImg = new Array("special_img/a.jpg","special_img/b.jpg","special_img/c.jpg","special_img/d.jpg","special_img/e.jpg","special_img/f.jpg","special_img/h.jpg","special_img/g.jpg");
         setInterval("randomImg()",2000);
-        function randomImg(){      
+        function randomImg(){
         var imgIndex = Math.floor(Math.random()*jsImg.length);
         document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[imgIndex]+"' width=450 height=450>";
-        }       
+        }
 </script>
 <script type="text/javascript">
         var jsImg = new Array("special_img/a.jpg","special_img/b.jpg","special_img/c.jpg","special_img/d.jpg","special_img/e.jpg","special_img/f.jpg","special_img/h.jpg","special_img/g.jpg");
-        var jsImg_len = jsImg.length;    
-        var i=0;                          
+        var jsImg_len = jsImg.length;
+        var i=0;
         setInterval("sequentialImg()",2000);
-        function sequentialImg(){  
-            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";        
+        function sequentialImg(){
+            document.getElementById("my_div").innerHTML  = "<img src='"+jsImg[i]+"' width=450 height=450>";
                 i++;
                 if(i>=jsImg_len)  i=0;
         }
 </script>
 <body onload="sequentialImg();">
-<div id="my_div" ></div> 
+<div id="my_div" ></div>
 </div>
 
 
@@ -231,7 +231,7 @@ $(document).ready(function(){
         <div class="col-md-3 col-sm-6 mb-4">
          <img class="img-fluid" id = "tsou4" src="special_img/dd.jpg"  height="350" width="400">
 	 <img class="img-fluid" id = "bunun4"  style="display:none;"  src="special_img/ddd.jpg" height="350" width="400">
-         <img class="img-fluid" id = "abc4"  style="display:none;"  src="special_img/dddd.jpg" height="350" width="400">	
+         <img class="img-fluid" id = "abc4"  style="display:none;"  src="special_img/dddd.jpg" height="350" width="400">
 	  </div>
 
       </div>
